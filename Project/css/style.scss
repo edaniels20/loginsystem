@@ -1,0 +1,83 @@
+$logo-color:#1a3e64;
+
+.container {
+    background-color: rgb(168, 168, 168);
+}
+
+//Home -----------------------------------------------------------------------------------------------
+
+.header {
+    background-color: #007bff;
+}
+
+.logo {
+    color: $logo-color;
+    font-size: 40px;
+}
+
+.header button {
+    background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+
+//Login -----------------------------------------------------------------------------------------------
+
+.login-content {
+    text-align: center;
+}
+
+.login-content input {
+    margin: 5px;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.login-content button {
+    margin-top: 5px;
+}
+
+.login-content a {
+    color: white;
+    text-decoration: underline;
+}
+
+// Signup -----------------------------------------------------------------------------------------------
+
+.signup {
+    text-align: center;
+}
+
+
+.signup input {
+    margin: 5px;
+    width: 90%;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.signup button {
+    margin-top: 5px;
+}
+
+@media screen and (min-width: 600px) {
+    .signup input {
+        width: 50%;
+    }
+}
+
+// Footer ---------------------------------------------------------------------------------------------
+
+.footer-outer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: #007bff;
+}
